@@ -132,6 +132,11 @@
   }
   .company-card {
     width: 225px;
+    margin: auto;
+  }
+  .Popular__Companies__cards {
+    justify-items: center;
+    gap: 15px;
   }
 
   .description,
@@ -342,6 +347,11 @@
   /******/
   .company-card {
     width: 180px;
+    margin: auto;
+  }
+  .Popular__Companies__cards {
+    justify-items: center;
+    gap: 15px;
   }
   /************/
 
@@ -457,6 +467,11 @@
     width: 150px;
     object-fit: cover;
     border-radius: 16px 0 0 16px;
+  }
+  /***************/
+  .company-card {
+    width: 50vw;
+    margin: auto;
   }
   /***************/
   .news-cards {

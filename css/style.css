@@ -440,6 +440,7 @@ input:focus {
 .company-card {
   background: white;
   width: 280px;
+  height: auto;
   margin: 0% 1rem;
   border-radius: 20px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
@@ -494,7 +495,7 @@ input:focus {
 .description {
   font-size: 14px;
   color: #555;
-  height: 40px;
+  height: auto;
   overflow: hidden;
 }
 

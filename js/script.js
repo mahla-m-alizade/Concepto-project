@@ -38,8 +38,10 @@ popularComponyBtn.addEventListener("click", (e) => {
   e.preventDefault();
   if (isFlex3) {
     popularCompanyContainer.style.display = "grid";
+    popularCompanyContainer.style.overflowX = "visible";
   } else {
     popularCompanyContainer.style.display = "flex";
+    popularCompanyContainer.style.overflowX = "auto";
   }
   isFlex3 = !isFlex3;
 });
